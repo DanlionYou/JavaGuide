@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - "docs/.vuepress/**.ts"
       - "docs/**.md"
       - ".github/workflows/deploy.yml"
 
