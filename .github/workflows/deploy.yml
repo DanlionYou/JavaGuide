@@ -39,7 +39,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.REPO_TOKEN }}
           publish_dir: ./dist
           external_repository: DanlionYou/DanlionYou.github.io
           publish_branch: main
